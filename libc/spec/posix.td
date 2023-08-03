@@ -225,6 +225,15 @@ def POSIX : StandardSpec<"POSIX"> {
     ]
   >;
 
+  HeaderSpec Limits = HeaderSpec<
+    "limits.h",
+    [
+    ],
+    [], // Types
+    [], // Enumerations
+    [] // Functions
+  >;
+
   HeaderSpec SysMMan = HeaderSpec<
       "sys/mman.h",
       [
@@ -1395,6 +1404,7 @@ def POSIX : StandardSpec<"POSIX"> {
     Dirent,
     Errno,
     FCntl,
+    Limits,
     PThread,
     Sched,
     Signal,
