@@ -796,6 +796,7 @@ def StdC : StandardSpec<"stdc"> {
   HeaderSpec Limits = HeaderSpec<
       "limits.h",
       [
+        Macro<"LONG_MAX">,
       ],
       [], // Types
       [], // Enumerations
