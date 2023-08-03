@@ -12,5 +12,6 @@
 #endif // __LP64__
 
 #define LONG_MAX __LONG_MAX
+#define SSIZE_MAX LONG_MAX
 
 #endif // __LLVM_LIBC_MACROS_LIMITS_MACROS_H

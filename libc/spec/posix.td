@@ -228,6 +228,7 @@ def POSIX : StandardSpec<"POSIX"> {
   HeaderSpec Limits = HeaderSpec<
     "limits.h",
     [
+        Macro<"SSIZE_MAX">,
     ],
     [], // Types
     [], // Enumerations
